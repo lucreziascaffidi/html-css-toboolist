@@ -1,5 +1,41 @@
+/***************
+Document Palette
+Header: #FFFFFF
+Body: #F6F9FA
+Selected Button: #12AAF6
+Editorial: #4CA6E7
+Q1 goals: #9E60DC
+Recruiting: #62C3AC
+Mobile: #FF9B00
+Website: #DA569B
+Sales: #ACD045
+****************/
+
+
+
+/***************
+Reset Rules
+****************/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/***************
+Common Rules
+****************/
+
+body {
+    background-color: #F6F9FA;
+}
+
+header {
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.header-logo {
+    height: 50px;
 }
