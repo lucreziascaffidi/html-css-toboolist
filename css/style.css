@@ -1,3 +1,10 @@
+/*
+&dtrif
+&check
+&cross
+ */
+
+
 /***************
 Document Palette
 Header: #FFFFFF
@@ -38,4 +45,54 @@ header {
 
 .header-logo {
     height: 50px;
+}
+
+main {
+    margin: auto;
+    width: 60%;
+
+}
+
+.button-container {
+    margin-top: 40px;
+    padding: 10px 40px;
+    border-radius: 16px 16px 0 0;
+    background-color: #FFFFFF;
+}
+
+.button {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border-color: lightgray;
+    border-width: 0.2px;
+    padding: 5px;
+}
+
+.todo-container {
+    background-color: #FFFFFF;
+    border-radius: 0 0 16px 16px;
+    padding: 20px 40px;
+    margin-top: 1px;
+}
+
+.todo-section {
+    margin-bottom: 25px;
+}
+
+.todo-body {
+    margin-top: 10px;
+
+    p {
+        display: inline-block;
+    }
+
+}
+
+.icon {
+    border: solid;
+    border-radius: 50%;
+    padding: 2px 3px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
 }
