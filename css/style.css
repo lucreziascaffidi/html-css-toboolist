@@ -96,3 +96,13 @@ main {
     height: 25px;
     text-align: center;
 }
+
+.label {
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: black;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.blue {}
