@@ -65,7 +65,13 @@ main {
     border-radius: 5px;
     border-color: lightgray;
     border-width: 0.2px;
-    padding: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+
+.pressed {
+    background-color: #6bb9f1;
+    color: #FFFFFF;
 }
 
 .todo-container {
@@ -84,6 +90,7 @@ main {
 
     p {
         display: inline-block;
+        margin-right: 5px;
     }
 
 }
@@ -97,12 +104,42 @@ main {
     text-align: center;
 }
 
+.tick {
+    color: #58c248;
+}
+
+.cross {
+    color: red;
+}
+
 .label {
     border-radius: 20px;
     color: #FFFFFF;
     background-color: black;
     font-size: 12px;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
-.blue {}
+.editorial {
+    background-color: #4CA6E7;
+}
+
+.q1-goals {
+    background-color: #9E60DC;
+}
+
+.recruiting {
+    background-color: #62C3AC;
+}
+
+.mobile {
+    background-color: #FF9B00;
+}
+
+.website {
+    background-color: #DA569B;
+}
+
+.sales {
+    background-color: #ACD045;
+}
